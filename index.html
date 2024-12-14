@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Great Auto Parts - Order Form</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="container">
+    <h1>Great Auto Parts - Order Form</h1>
+    <form>
+        <div class="form_group">
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" placeholder="Enter your first name" />
+        </div>
+
+        <div class="form_group">
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" placeholder="Enter your last name" />
+        </div>
+
+        <div class="form_group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" />
+        </div>
+
+        <div class="form_group">
+            <label for="phone_number">Phone number:</label>
+            <input type="tel" id="phone_number" name="phone_number" placeholder="Enter your phone number" />
+        </div>
+
+        <div class="form_group">
+            <label for="make">Make:</label>
+            <select id="make" name="make">
+                <option value="" disabled selected>Select Make</option>
+                <option value="toyota">Toyota</option>
+                <option value="honda">Honda</option>
+                <option value="ford">Ford</option>
+                <option value="chevrolet">Chevrolet</option>
+                <option value="bmw">BMW</option>
+                <option value="mercedes_benz">Mercedes-Benz</option>
+                <option value="audi">Audi</option>
+                <option value="tesla">Tesla</option>
+                <option value="nissan">Nissan</option>
+                <option value="volkswagen">Volkswagen</option>
+            </select>
+        </div>
+
+        <div class="form_group">
+            <label for="model">Model:</label>
+            <select id="model" name="model">
+                <option value="" disabled selected>Select Model</option>
+
+                <option value="camry">Toyota Camry</option>
+                <option value="corolla">Toyota Corolla</option>
+
+                <option value="civic">Honda Civic</option>
+                <option value="accord">Honda Accord</option>
+
+                <option value="f150">Ford F-150</option>
+                <option value="mustang">Ford Mustang</option>
+
+                <option value="silverado">Chevrolet Silverado</option>
+                <option value="malibu">Chevrolet Malibu</option>
+
+                <option value="3series">BMW 3 Series</option>
+                <option value="x5">BMW X5</option>
+
+                <option value="c_class">Mercedes-Benz C-Class</option>
+                <option value="g_class">Mercedes-Benz G-Class</option>
+
+                <option value="a4">Audi A4</option>
+                <option value="q7">Audi Q7</option>
+
+                <option value="model_3">Tesla Model 3</option>
+                <option value="model_x">Tesla Model X</option>
+
+                <option value="altima">Nissan Altima</option>
+                <option value="sentra">Nissan Sentra</option>
+
+                <option value="golf">Volkswagen Golf</option>
+                <option value="tiguan">Volkswagen Tiguan</option>
+            </select>
+        </div>
+
+        <div class="form_group">
+            <label for="year">Year:</label>
+            <input type="text" id="year" name="year" placeholder="Year" />
+        </div>
+
+        <div class="form_group">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" placeholder="mm / dd / yyyy" />
+        </div>
+
+        <div class="form_group">
+            <label for="spare_part">Spare Part:</label>
+            <input type="text" id="spare_part" name="spare_part" placeholder="Enter the spare part you need" />
+        </div>
+
+        <div class="form_group">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="0" max="10"
+                placeholder="Enter the quantity of the spare part you need" />
+        </div>
+
+        <div class="form_group" id="textarea_group">
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" placeholder="Enter your comment"></textarea>
+        </div>
+
+        <div class="form_group">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+</body>
+
+</html>
